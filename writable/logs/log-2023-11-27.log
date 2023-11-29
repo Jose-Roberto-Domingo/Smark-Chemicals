@@ -1,0 +1,431 @@
+INFO - 2023-11-27 01:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-27 01:27:10 --> Undefined variable $empleados
+in APPPATH\Views\Admin\Inicio\home.php on line 155.
+ 1 APPPATH\Views\Admin\Inicio\home.php(155): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\Inicio\\home.php', 155)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\Inicio\\home.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/Inicio/home', [], true)
+ 5 APPPATH\Controllers\Home.php(43): view('Admin/Inicio/home')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-27 01:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:31:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 01:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-27 01:41:13 --> Undefined variable $compra
+in APPPATH\Views\Admin\proveedor\mostrar.php on line 106.
+ 1 APPPATH\Views\Admin\proveedor\mostrar.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compra', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/proveedor/mostrar', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(19): view('Admin/proveedor/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Proveedor->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 01:41:41 --> Undefined property: stdClass::$id
+in APPPATH\Views\Admin\proveedor\mostrar.php on line 106.
+ 1 APPPATH\Views\Admin\proveedor\mostrar.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php', 106)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/proveedor/mostrar', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(19): view('Admin/proveedor/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Proveedor->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 02:02:25 --> Undefined property: stdClass::$id
+in APPPATH\Views\Admin\producto\mostrar.php on line 107.
+ 1 APPPATH\Views\Admin\producto\mostrar.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$id', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\mostrar.php', 107)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/producto/mostrar', [], true)
+ 5 APPPATH\Controllers\Producto.php(19): view('Admin/producto/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:03:01 --> Undefined property: stdClass::$nombreEmpleado
+in APPPATH\Views\Admin\ventas\agregar.php on line 76.
+ 1 APPPATH\Views\Admin\ventas\agregar.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreEmpleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\agregar.php', 76)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/agregar', [...], true)
+ 5 APPPATH\Controllers\Ventas.php(50): view('Admin/ventas/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:09:48 --> Undefined property: stdClass::$nombreEmpleado
+in APPPATH\Views\Admin\compras\agregar.php on line 83.
+ 1 APPPATH\Views\Admin\compras\agregar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreEmpleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\compras\\agregar.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\compras\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/compras/agregar', [...], true)
+ 5 APPPATH\Controllers\Compras.php(51): view('Admin/compras/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:12:01 --> Undefined property: stdClass::$productoTotal
+in APPPATH\Views\Admin\compras\mostrar.php on line 109.
+ 1 APPPATH\Views\Admin\compras\mostrar.php(109): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$productoTotal', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\compras\\mostrar.php', 109)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\compras\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/compras/mostrar', [], true)
+ 5 APPPATH\Controllers\Compras.php(19): view('Admin/compras/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:13:42 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:15:42 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:15:56 --> Undefined variable $empleado
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:16:12 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:16:54 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:20:34 --> Undefined variable $empleado
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:20:43 --> Undefined variable $empleado
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:21:07 --> Undefined variable $clientes
+in APPPATH\Views\Admin\ventas\editar.php on line 83.
+ 1 APPPATH\Views\Admin\ventas\editar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:27:17 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 05:28:03 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+INFO - 2023-11-27 14:19:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 14:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-27 14:25:06 --> Undefined variable $productos
+in APPPATH\Views\Admin\ventas\editar.php on line 74.
+ 1 APPPATH\Views\Admin\ventas\editar.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 74)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 14:25:22 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 14:32:32 --> Undefined variable $proveedores
+in APPPATH\Views\Admin\producto\editar.php on line 67.
+ 1 APPPATH\Views\Admin\producto\editar.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\editar.php', 67)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/producto/editar', [], true)
+ 5 APPPATH\Controllers\Producto.php(84): view('Admin/producto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+INFO - 2023-11-27 14:34:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 15:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 15:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-27 15:24:58 --> mysqli_sql_exception: Table 'smarkchemicals.smarkchemicals' doesn't exist in C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT SmarkChe...', 0)
+#1 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SmarkChe...')
+#2 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SmarkChe...')
+#3 C:\xampp\htdocs\ProjectoFinal23\app\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT SmarkChe...')
+#4 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(919): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectoFinal23\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectoFinal23\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-27 15:24:59 --> Table 'smarkchemicals.smarkchemicals' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT SmarkChemicals.*, Proveedores.proveedor, Empleados.empleado FROM SmarkChemicals, Proveedores, Empleados where SmarkChemicals.proveedor = Proveedores.proveedor and SmarkChemicals.empleado = Empleados.empleado')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+ERROR - 2023-11-27 15:26:04 --> mysqli_sql_exception: Unknown table 'smarkchemicals.SmarkChemicals' in C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT SmarkChe...', 0)
+#1 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SmarkChe...')
+#2 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SmarkChe...')
+#3 C:\xampp\htdocs\ProjectoFinal23\app\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT SmarkChe...')
+#4 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(919): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectoFinal23\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectoFinal23\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-27 15:26:04 --> Unknown table 'smarkchemicals.SmarkChemicals'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT SmarkChemicals.*, Proveedores.proveedor, Empleados.empleado FROM Productos, Proveedores, Empleados where Productos.proveedor = Proveedores.proveedor and Productos.empleado = Empleados.empleado')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+ERROR - 2023-11-27 15:26:24 --> mysqli_sql_exception: Unknown column 'Proveedores.proveedor' in 'field list' in C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ProjectoFinal23\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT Producto...', 0)
+#1 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT Producto...')
+#2 C:\xampp\htdocs\ProjectoFinal23\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT Producto...')
+#3 C:\xampp\htdocs\ProjectoFinal23\app\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT Producto...')
+#4 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(919): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ProjectoFinal23\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ProjectoFinal23\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-11-27 15:26:24 --> Unknown column 'Proveedores.proveedor' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 APPPATH\Controllers\Inicio.php(13): CodeIgniter\Database\BaseConnection->query('SELECT Productos.*, Proveedores.proveedor, Empleados.empleado FROM Productos, Proveedores, Empleados where Productos.proveedor = Proveedores.proveedor and Productos.empleado = Empleados.empleado')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 15:27:24 --> Undefined variable $mascotas
+in APPPATH\Views\Admin\Menu_Inicio\Inicio.php on line 3.
+ 1 APPPATH\Views\Admin\Menu_Inicio\Inicio.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotas', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\Menu_Inicio\\Inicio.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\Menu_Inicio\\Inicio.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/Menu_Inicio/Inicio', [], true)
+ 5 APPPATH\Controllers\Inicio.php(18): view('Admin/Menu_Inicio/Inicio', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:26:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Producto.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:28:36 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Producto.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:34:17 --> Undefined array key "imagenProductoExistente"
+in APPPATH\Controllers\Producto.php on line 102.
+ 1 APPPATH\Controllers\Producto.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenProductoExistente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Producto.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:36:40 --> Undefined array key "imagenProductoExistente"
+in APPPATH\Controllers\Producto.php on line 102.
+ 1 APPPATH\Controllers\Producto.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imagenProductoExistente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Producto.php', 102)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:36:44 --> Undefined variable $producto
+in APPPATH\Views\Admin\producto\editar.php on line 51.
+ 1 APPPATH\Views\Admin\producto\editar.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\editar.php', 51)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/producto/editar', [], true)
+ 5 APPPATH\Controllers\Producto.php(90): view('Admin/producto/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:52:48 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:54:26 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 16:54:38 --> Undefined variable $empleados
+in APPPATH\Views\Admin\ventas\editar.php on line 77.
+ 1 APPPATH\Views\Admin\ventas\editar.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php', 77)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/editar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(82): view('Admin/ventas/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->editar('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+INFO - 2023-11-27 17:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-27 17:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-27 17:14:11 --> Undefined variable $productos
+in APPPATH\Views\Admin\ventas\buscar.php on line 92.
+ 1 APPPATH\Views\Admin\ventas\buscar.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\buscar.php', 92)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/buscar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(127): view('Admin/ventas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-27 17:18:29 --> Undefined property: stdClass::$nombreEmpresa
+in APPPATH\Views\Admin\ventas\buscar.php on line 103.
+ 1 APPPATH\Views\Admin\ventas\buscar.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreEmpresa', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\buscar.php', 103)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\ventas\\buscar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/ventas/buscar', [], true)
+ 5 APPPATH\Controllers\Ventas.php(127): view('Admin/ventas/buscar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Ventas->buscar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ventas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')

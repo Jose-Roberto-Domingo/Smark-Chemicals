@@ -1,0 +1,157 @@
+CRITICAL - 2023-11-23 19:00:34 --> Undefined variable $proveedores
+in APPPATH\Views\Admin\proveedor\mostrar.php on line 90.
+ 1 APPPATH\Views\Admin\proveedor\mostrar.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedores', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\proveedor\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/proveedor/mostrar', [], true)
+ 5 APPPATH\Controllers\Proveedor.php(19): view('Admin/proveedor/mostrar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Proveedor->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:24:23 --> Undefined array key "id"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:25:38 --> Undefined array key "idCliente"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCliente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:26:52 --> Too few arguments to function App\Controllers\Clientes::update(), 0 passed in C:\xampp\htdocs\ProjectoFinal23\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Clientes.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:28:26 --> Undefined array key "idCliente"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCliente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:28:56 --> Undefined array key "id"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:29:05 --> Undefined array key "idCliente"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCliente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:31:38 --> Undefined array key "id"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:32:10 --> Undefined array key "id"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:33:24 --> Undefined array key "idCliente"
+in APPPATH\Controllers\Clientes.php on line 81.
+ 1 APPPATH\Controllers\Clientes.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idCliente"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Clientes.php', 81)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 19:49:13 --> Undefined property: stdClass::$nombreEmpleado
+in APPPATH\Views\Admin\producto\agregar.php on line 83.
+ 1 APPPATH\Views\Admin\producto\agregar.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombreEmpleado', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\agregar.php', 83)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\producto\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/producto/agregar', [...], true)
+ 5 APPPATH\Controllers\Producto.php(51): view('Admin/producto/agregar', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-23 20:39:02 --> "rol" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('rol')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('rol', 'rol', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(21): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 20:40:53 --> "rol" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 317.
+ 1 SYSTEMPATH\Validation\Validation.php(317): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('rol')
+ 2 SYSTEMPATH\Validation\Validation.php(195): CodeIgniter\Validation\Validation->processRules('rol', 'rol', null, [...], [...])
+ 3 SYSTEMPATH\Controller.php(150): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Home.php(21): CodeIgniter\Controller->validate([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-23 20:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-23 20:50:45 --> Undefined variable $clientes
+in APPPATH\Views\Admin\cliente\mostrar.php on line 90.
+ 1 APPPATH\Views\Admin\cliente\mostrar.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\cliente\\mostrar.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\cliente\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/cliente/mostrar', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('Admin/cliente/mostrar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-23 20:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-23 20:53:56 --> The route for "Admin/Inicio/home" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('Admin/Inicio/home')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(24): redirect('Admin/Inicio/home')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 20:54:16 --> The route for "Admin/Inicio/home" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('Admin/Inicio/home')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\Home.php(24): redirect('Admin/Inicio/home')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-23 20:54:22 --> Undefined variable $clientes
+in APPPATH\Views\Admin\cliente\mostrar.php on line 90.
+ 1 APPPATH\Views\Admin\cliente\mostrar.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\cliente\\mostrar.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\Admin\\cliente\\mostrar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/cliente/mostrar', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('Admin/cliente/mostrar')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,108 @@
+INFO - 2023-11-24 03:10:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:11:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:14:42 --> Undefined array key "id"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:15:22 --> Undefined array key "idUsuario"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idUsuario"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:15:36 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:15:50 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:16:07 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:16:39 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:17:56 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:19:11 --> Undefined array key "idEmpleado"
+in APPPATH\Controllers\Home.php on line 36.
+ 1 APPPATH\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEmpleado"', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Controllers\\Home.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-24 03:27:48 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\ProjectoFinal23\app\Controllers\Home.php on line 37
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Home.php(37): CodeIgniter\HTTP\RedirectResponse->to('Admin/cliente/mostrar', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-24 03:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:28:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-24 03:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

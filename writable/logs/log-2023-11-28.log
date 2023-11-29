@@ -1,0 +1,79 @@
+INFO - 2023-11-28 15:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 15:52:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 15:53:15 --> Call to a member function getName() on null
+in APPPATH\Controllers\Producto.php on line 59.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Producto->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+INFO - 2023-11-28 16:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 16:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 16:23:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 16:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 16:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 19:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 19:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 19:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 19:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 19:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 21:50:31 --> Undefined variable $empleados
+in APPPATH\Views\common\menu.php on line 33.
+ 1 APPPATH\Views\common\menu.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Compras.php(18): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-28 21:51:20 --> Undefined variable $empleados
+in APPPATH\Views\common\menu.php on line 33.
+ 1 APPPATH\Views\common\menu.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Compras.php(18): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Compras->mostrar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Compras))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-28 21:51:24 --> Undefined variable $empleados
+in APPPATH\Views\common\menu.php on line 33.
+ 1 APPPATH\Views\common\menu.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(19): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-28 21:52:25 --> Undefined variable $empleados
+in APPPATH\Views\common\menu.php on line 33.
+ 1 APPPATH\Views\common\menu.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(19): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
+CRITICAL - 2023-11-28 21:55:57 --> Undefined variable $empleados
+in APPPATH\Views\common\menu.php on line 33.
+ 1 APPPATH\Views\common\menu.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleados', 'C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ProjectoFinal23\\app\\Views\\common\\menu.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('common/menu', [], true)
+ 5 APPPATH\Controllers\Inicio.php(19): view('common/menu')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inicio->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ProjectoFinal23\\public\\index.php')
