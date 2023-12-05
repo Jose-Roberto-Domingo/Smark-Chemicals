@@ -50,7 +50,7 @@
 
                 <div class="mb-3">
                     <label for="correo" class="form-label">Correo</label>
-                    <input type="text" minlength="3" maxlength="30" class="form-control" name="correo" id="correo" value="<?=$clientes->correo ?>" required="required">
+                    <input type="email" minlength="3" maxlength="30" class="form-control" name="correo" id="correo" value="<?=$clientes->correo ?>" required="required">
                 </div>
 
                 <div class="mb-3">
@@ -60,7 +60,7 @@
 
                 <div class="mb-3">
                     <label for="telefono" class="form-label">Teléfono</label>
-                    <input type="text" minlength="3" maxlength="12" class="form-control" name="telefono" id="telefono" value="<?=$clientes->telefono ?>" required="required">
+                    <input type="tel" minlength="3" maxlength="12" class="form-control" name="telefono" id="telefono" value="<?=$clientes->telefono ?>" required="required">
                 </div>
 
                 <br>

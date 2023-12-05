@@ -89,7 +89,6 @@
                 <table class="table2">
                     <thead>
                         <th>Nombre del producto</th>
-                        <th>Código del producto</th>
                         <th>Proveedor</th>
                         <th>Precio</th>
                         <th>Empleado</th>
@@ -102,7 +101,6 @@
                     <?php foreach($compras as $compra):?>
                             <tr>
                                 <td><?=$compra->nombreProducto?></td>
-                                <td><?=$compra->codigoProducto?></td>
                                 <td><?=$compra->proveedor?></td>
                                 <td><?=$compra->precio ?></td>
                                 <td><?=$compra->empleado  ?></td>

@@ -55,11 +55,6 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="codigoProducto" class="form-label">Código del Producto</label>
-                    <input type="text" minlength="3" maxlength="10" class="form-control" name="codigoProducto" id="codigoProducto" value="<?= $ventas->codigoProducto?>" required="required">
-                </div>
-
-                <div class="mb-3">
                     <label for="ventaTotal" class="form-label">Total de la venta</label>
                     <input type="double" class="form-control" name="ventaTotal" id="ventaTotal" value="<?= $ventas->ventaTotal?>" required="required">
                 </div>

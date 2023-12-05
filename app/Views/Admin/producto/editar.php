@@ -51,11 +51,6 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="codigoProducto" class="form-label">Código del Producto</label>
-                    <input type="text" minlength="3" maxlength="10" class="form-control" name="codigoProducto" id="codigoProducto" value="<?=$productos->codigoProducto ?>" required="required">
-                </div>
-
-                <div class="mb-3">
                     <label for="precio" class="form-label">Precio</label>
                     <input type="double" class="form-control" name="precio" id="precio" value="<?=$productos->precio ?>" required="required">
                 </div>

@@ -152,8 +152,8 @@
             <div class="inp">
                 <select name="rol" id="rol" class="input" required="required">
                     <option value=""></option>
-                    <option value="admin">Administrador</option>
-                    <option value="usuario">Usuario</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Empleado">Empleado</option>
                 </select>
                 <i class="fa-solid fa-users"></i>
             </div>

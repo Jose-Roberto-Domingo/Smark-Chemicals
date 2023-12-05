@@ -89,7 +89,7 @@
                 <label for="nombreEmpresa">Nombre de la empresa</label>
                 <input type="text" class="form-control" name="nombreEmpresa">
                 <label for="correo">Correo</label>
-                <input type="text" class="form-control" name="correo">
+                <input type="email" class="form-control" name="correo">
                 <center><input type="submit" class="btn btn-success mt-4" value="Buscar">
                 </center>
             </form>

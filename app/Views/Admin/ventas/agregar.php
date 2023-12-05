@@ -61,18 +61,6 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="codigoProducto" class="form-label">Código del Producto</label>
-                    <select name="codigoProducto" class="form-control" required="required">
-                            <option value=""></option>
-                        <?php foreach ($productos as $producto): ?>
-                            <option value="<?= $producto->codigoProducto ?>">
-                                <?= $producto->codigoProducto ?>
-                            </option>
-                        <?php endforeach ?>
-                    </select>
-                </div>
-
-                <div class="mb-3">
                     <label for="ventaTotal" class="form-label">Total de la venta</label>
                     <input type="double" class="form-control" name="ventaTotal" id="ventaTotal" required="required">
                 </div>
@@ -84,14 +72,7 @@
 
                 <div class="mb-3">
                     <label for="empleado">Usuario</label>
-                    <select name="empleado" class="form-control">
-                            <option value=""></option>
-                        <?php foreach ($empleados as $empleado): ?>
-                            <option value="<?= $empleado->nombre ?>">
-                                <?= $empleado->nombre ?>
-                            </option>
-                        <?php endforeach ?>
-                    </select>
+                    <input type="text" minlength="3" maxlength="50" class="form-control" name="empleado" id="empleado" value="<?= session('nombre')?>" required="required">
                 </div>
 
                 <div class="mb-3">

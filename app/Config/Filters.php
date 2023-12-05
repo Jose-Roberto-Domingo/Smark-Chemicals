@@ -24,6 +24,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'sesion' => \App\Filters\sesion::class
     ];
 
     /**
@@ -66,5 +67,41 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+        "sesion" => [
+            "before" => [
+                //Filtro menu de inicio
+                "/Admin/Menu_Inicio/Inicio'",
+                //Filtro Producto
+                "/Admin/producto/mostrar",
+                "/Admin/producto/agregar",
+                "/Admin/producto/buscar",
+                // Filtro clientes
+                "/Admin/cliente/mostrar",
+                "/Admin/cliente/agregar",
+                "/Admin/cliente/buscar",
+                "/Admin/cliente/editar",
+                // Filtro compras
+                "/Admin/compras/mostrar",
+                "/Admin/compras/agregar",
+                "/Admin/compras/buscar",
+                "/Admin/compras/editar",
+                // Filtro empleado
+                "/Admin/empleado/mostrar",
+                "/Admin/empleado/agregar",
+                "/Admin/empleado/buscar",
+                "/Admin/empleado/editar",
+                // Filtro proveedor
+                "/Admin/proveedor/mostrar",
+                "/Admin/proveedor/agregar",
+                "/Admin/proveedor/buscar",
+                "/Admin/proveedor/editar",
+                // Filtro ventas
+                "/Admin/ventas/mostrar",
+                "/Admin/ventas/agregar",
+                "/Admin/ventas/buscar",
+                "/Admin/ventas/editar"
+            ]
+        ]
+    ];
 }

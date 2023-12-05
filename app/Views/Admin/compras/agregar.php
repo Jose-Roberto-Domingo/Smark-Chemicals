@@ -54,11 +54,6 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="codigoProducto" class="form-label">Código del Producto</label>
-                    <input type="text" minlength="3" maxlength="50" class="form-control" name="codigoProducto" id="codigoProducto" >
-                </div>
-
-                <div class="mb-3">
                     <label for="proveedor">Proveedor</label>
                     <select name="proveedor" class="form-control">
                         <option value=""></option>
@@ -77,14 +72,7 @@
 
                 <div class="mb-3">
                     <label for="empleado">Usuario</label>
-                    <select name="empleado" class="form-control">
-                            <option value=""></option>
-                        <?php foreach ($empleados as $empleado): ?>
-                            <option value="<?= $empleado->nombre ?>">
-                                <?= $empleado->nombre ?>
-                            </option>
-                        <?php endforeach ?>
-                    </select>
+                    <input type="text" minlength="3" maxlength="50" class="form-control" name="empleado" id="empleado" value="<?= session('nombre')?>" required="required">
                 </div>
 
                 <div class="mb-3">
