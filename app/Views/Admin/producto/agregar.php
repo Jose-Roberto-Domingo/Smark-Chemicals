@@ -98,3 +98,10 @@
         <div class="col-3"></div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const fechaCompra = document.getElementById('fechaCompra');
+        const fechaActual = new Date().toISOString().substring(0, 10);
+        fechaCompra.value = fechaActual;
+    });
+</script>
