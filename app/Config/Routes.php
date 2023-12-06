@@ -7,7 +7,7 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'Home::index');
 $routes->post('/','Home::index');
-$routes->get('/salir', 'Home::index');
+$routes->get('/salir', 'Home::salir');
 $routes->post('/salir', 'Home::index');
 
 // Menu de Inicio "FrontEnd"

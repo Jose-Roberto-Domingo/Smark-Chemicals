@@ -53,18 +53,37 @@ class Ventas extends BaseController
     }
     public function insert(){
         $ventaModel = model('VentasModel');
+        $productoModel = model('ProductoModel');
+    
+        $nombreProducto = $_POST['nombreProducto'];
+        $ventaTotal = $_POST['ventaTotal'];
+    
+        // Obtener el producto existente
+        $productoExistente = $productoModel->where('nombreProducto', $nombreProducto)->first();
+    
+        if ($productoExistente) {
+            // Actualizar la cantidad del producto existente
+            $nuevaCantidad = $productoExistente->productoTotal - $ventaTotal;
+        
+            // Actualizar el producto existente en la base de datos
+            $productoModel->update($productoExistente->idProducto, ['productoTotal' => $nuevaCantidad]);
+        }
+    
+        // Insertar la nueva venta
         $data = [
-            "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
-            "ventaTotal" => $_POST['ventaTotal'],
+            "nombreProducto" => $nombreProducto,
+            "ventaTotal" => $ventaTotal,
             "fechaVenta" => $_POST['fechaVenta'],
             "empleado" => $_POST['empleado'],
             "cliente" => $_POST['cliente'],
             "numeroSeguimiento" => bin2hex(random_bytes(5))
         ];
+    
         $ventaModel->insert($data, false);
+    
         return redirect('Admin/ventas/mostrar');
     }
+    
     
     public function delete($idVenta){
         $ventaModel = model('VentasModel');
@@ -91,18 +110,44 @@ class Ventas extends BaseController
     
     public function update(){
         $ventaModel = model('VentasModel');
-        
+    $productoModel = model('ProductoModel');
+
+    $idVenta = $_POST['idVenta'];
+    $nombreProducto = $_POST['nombreProducto'];
+    $nuevoVentaTotal = $_POST['ventaTotal'];
+
+    // Obtener la venta existente
+    $ventaExistente = $ventaModel->find($idVenta);
+
+    if ($ventaExistente) {
+        // Calcular la diferencia en la cantidad de productos
+        $diferenciaCantidad = $nuevoVentaTotal - $ventaExistente->ventaTotal;
+
+        // Obtener el producto asociado a la venta
+        $productoExistente = $productoModel->where('nombreProducto', $nombreProducto)->first();
+
+        if ($productoExistente) {
+            // Actualizar la cantidad del producto existente
+            $nuevaCantidad = $productoExistente->productoTotal - $diferenciaCantidad;
+
+            // Actualizar el producto existente en la base de datos
+            $productoModel->update($productoExistente->idProducto, ['productoTotal' => $nuevaCantidad]);
+        }
+
+        // Actualizar la información de la venta
         $data = [
-            "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
-            "ventaTotal" => $_POST['ventaTotal'],
+            "nombreProducto" => $nombreProducto,
+            "ventaTotal" => $nuevoVentaTotal,
             "fechaVenta" => $_POST['fechaVenta'],
             "empleado" => $_POST['empleado'],
             "cliente" => $_POST['cliente'],
             "numeroSeguimiento" => bin2hex(random_bytes(5))
         ];
-        $ventaModel->update($_POST['idVenta'],$data);
+
+        $ventaModel->update($idVenta, $data);
+
         return redirect('Admin/ventas/mostrar');
+    }
     }
 
     public function buscar(){
@@ -127,4 +172,8 @@ class Ventas extends BaseController
         view('Admin/ventas/buscar',$data) .
         view('common/footer');
     }
+    public function ver_grafica($idVenta)
+{
+    return view('Admin/ventas/ver_grafica', ['idVenta' => $idVenta]);
+}
 }

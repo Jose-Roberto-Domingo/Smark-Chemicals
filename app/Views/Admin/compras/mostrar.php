@@ -86,13 +86,13 @@
             <center><h2>Compras</h2></center>
             <a role="button" class="btn btn-success" href="<?= base_url('index.php/Admin/compras/agregar'); ?>">Registrar compra</a>
             <a role="button" class="btn btn-info" href="<?= base_url('index.php/Admin/compras/buscar'); ?>">Buscar compra</a>
-                <table class="table2">
+                <table class="table2" border="1">
                     <thead>
                         <th>Nombre del producto</th>
                         <th>Proveedor</th>
                         <th>Precio</th>
                         <th>Empleado</th>
-                        <th>Total de la compra</th>
+                        <th>Cantidad de producto comprado</th>
                         <th>Fecha de compra</th>
                         <th>Número de Seguimiento</th>
                         <th>Acciones</th>

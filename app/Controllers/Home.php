@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\Usuarios;
 
 class Home extends BaseController
 {
@@ -24,6 +23,7 @@ class Home extends BaseController
 
         $nombre = $this->request->getPost('nombre');
         $contraseña = $this->request->getPost('contraseña');
+        
         $empleadoModel = model('EmpleadoModel');
         $usuario = $empleadoModel->where('nombre', $nombre)
             ->where('contraseña', $contraseña)
@@ -32,7 +32,7 @@ class Home extends BaseController
         if ($usuario)   {
             // Guardar información del empleado en la sesión
             $dataSession = [
-                'idEmpleado' => $usuario->idEmpleado, // Asegúrate de tener el campo correcto
+                'idEmpleado' => $usuario->idEmpleado,
                 'nombre' => $usuario->nombre,
                 'rol' => $usuario->rol
             ];

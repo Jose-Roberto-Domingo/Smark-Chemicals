@@ -113,15 +113,6 @@
                             </option>
                         <?php endforeach ?>
                     </select>
-                    <label for="codigoProducto">Código del Producto</label>
-                    <select name="codigoProducto" class="form-control">
-                        <option value=""></option>
-                        <?php foreach ($compras as $compra): ?>
-                            <option value="<?= $compra->codigoProducto ?>">
-                                <?= $compra->codigoProducto ?>
-                            </option>
-                        <?php endforeach ?>
-                    </select>
                     <center><input type="submit" class="btn btn-success mt-4" value="Buscar">
                     </center>
                 </form>
@@ -142,11 +133,10 @@
                 <table class="table2" border="1">
                 <thead>
                         <th>Nombre del producto</th>
-                        <th>Código del producto</th>
                         <th>Proveedor</th>
                         <th>Precio</th>
                         <th>Usuario</th>
-                        <th>Total de la compra</th>
+                        <th>Cantidad de producto comprado</th>
                         <th>Fecha de compra</th>
                         <th>Número de Seguimiento</th>
                     </thead>
@@ -154,7 +144,6 @@
                     <?php foreach($compras as $compra):?>
                             <tr>
                                 <td><?=$compra->nombreProducto?></td>
-                                <td><?=$compra->codigoProducto?></td>
                                 <td><?=$compra->proveedor?></td>
                                 <td><?=$compra->precio ?></td>
                                 <td><?=$compra->empleado  ?></td>

@@ -37,7 +37,6 @@ class Producto extends BaseController
         }
         $rules = [
             'nombreProducto'=> 'required|max_length[50]',
-            'codigoProducto'=>'required',
             'precio'=> 'required',
             'proveedor'=>'required',
             'empleado'=>'required',
@@ -57,7 +56,6 @@ class Producto extends BaseController
 
         $data = [
             "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
             "precio"=>$_POST['precio'],
             "proveedor" => $_POST['proveedor'],
             "empleado" => $_POST['empleado'],
@@ -88,10 +86,9 @@ class Producto extends BaseController
     
     public function update(){
         $productoModel = model('ProductoModel');
-
+        
         $data = [
             "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
             "precio"=>$_POST['precio'],
             "proveedor" => $_POST['proveedor'],
             "empleado" => $_POST['empleado'],
@@ -106,13 +103,11 @@ class Producto extends BaseController
         $productoModel = model('ProductoModel');
         if(isset($_GET['nombreProducto'])){
             $nombreProducto =$_GET['nombreProducto'];
-            $codigoProducto =$_GET['codigoProducto'];
-            $data['productos'] = $productoModel->like('nombreProducto',$nombreProducto)->like('codigoProducto',$codigoProducto)->findAll();
+            $data['productos'] = $productoModel->like('nombreProducto',$nombreProducto)->findAll();
             
         }
         else{
             $nombreProducto = "";
-            $codigoProducto ="";
             $data['productos'] = $productoModel->findAll();
         }
         

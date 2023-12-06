@@ -37,7 +37,6 @@ class Compras extends BaseController
         }
         $rules = [
             'nombreProducto'=> 'required|max_length[50]',
-            'codigoProducto'=>'required',
             'proveedor'=>'required',
             'precio'=>'required',
             'empleado'=>'required',
@@ -52,22 +51,42 @@ class Compras extends BaseController
                 view('common/footer');
         }
     }
-    public function insert(){
-        $comprasModel = model('ComprasModel');
-        $data = [
-            "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
-            "proveedor" => $_POST['proveedor'],
-            "precio" =>$_POST['precio'],
-            "empleado" => $_POST['empleado'],
-            "compraTotal" => $_POST['compraTotal'],
-            "fechaCompra" => $_POST['fechaCompra'],
-            "numeroSeguimiento" => bin2hex(random_bytes(15))
-        ];
-        
-        $comprasModel->insert($data, false);
-        return redirect('Admin/compras/mostrar');
+    public function insert()
+{
+    $comprasModel = model('ComprasModel');
+    $productoModel = model('ProductoModel');
+
+    $nombreProducto = $_POST['nombreProducto'];
+    $compraTotal = $_POST['compraTotal'];
+    $fechaCompra = $_POST['fechaCompra'];
+
+    // Obtener el producto existente
+    $productoExistente = $productoModel->where('nombreProducto', $nombreProducto)->first();
+
+    if ($productoExistente) {
+        // Actualizar la cantidad del producto existente
+        $nuevaCantidad = $productoExistente->productoTotal + $compraTotal;
+
+        // Actualizar el producto existente en la base de datos
+        $productoModel->update($productoExistente->idProducto, ['productoTotal' => $nuevaCantidad, 'fechaCompra' => $fechaCompra]);
     }
+
+    // Insertar la nueva compra
+    $data = [
+        "nombreProducto" => $nombreProducto,
+        "proveedor" => $_POST['proveedor'],
+        "precio" => $_POST['precio'],
+        "empleado" => $_POST['empleado'],
+        "compraTotal" => $compraTotal,
+        "fechaCompra" => $fechaCompra,
+        "numeroSeguimiento" => bin2hex(random_bytes(15))
+    ];
+
+    $comprasModel->insert($data, false);
+
+    return redirect('Admin/compras/mostrar');
+}
+
     
     public function delete($idCompra){
         $comprasModel = model('ComprasModel');
@@ -87,32 +106,58 @@ class Compras extends BaseController
     }
     
     public function update(){
-        $comprasModel = model('ComprasModel');
+    $comprasModel = model('ComprasModel');
+    $productoModel = model('ProductoModel');
+
+    $idCompra = $_POST['idCompra'];
+    $nombreProducto = $_POST['nombreProducto'];
+    $nuevoCompraTotal = $_POST['compraTotal'];
+
+    // Obtener la compra existente
+    $compraExistente = $comprasModel->find($idCompra);
+
+    if ($compraExistente) {
+        // Calcular la diferencia en la cantidad de productos
+        $diferenciaCantidad = $nuevoCompraTotal - $compraExistente->compraTotal;
+
+        // Obtener el producto asociado a la compra
+        $productoExistente = $productoModel->where('nombreProducto', $nombreProducto)->first();
+
+        if ($productoExistente) {
+            // Actualizar la cantidad del producto existente
+            $nuevaCantidad = $productoExistente->productoTotal + $diferenciaCantidad;
+
+            // Actualizar el producto existente en la base de datos
+            $productoModel->update($productoExistente->idProducto, ['productoTotal' => $nuevaCantidad]);
+        }
+
+        // Actualizar la información de la compra
         $data = [
-            "nombreProducto" => $_POST['nombreProducto'],
-            "codigoProducto" => $_POST['codigoProducto'],
+            "nombreProducto" => $nombreProducto,
             "proveedor" => $_POST['proveedor'],
-            "precio" =>$_POST['precio'],
+            "precio" => $_POST['precio'],
             "empleado" => $_POST['empleado'],
-            "compraTotal" => $_POST['compraTotal'],
+            "compraTotal" => $nuevoCompraTotal,
             "fechaCompra" => $_POST['fechaCompra']
         ];
-        $comprasModel->update($_POST['idCompra'],$data);
+
+        $comprasModel->update($idCompra, $data);
+
         return redirect('Admin/compras/mostrar');
+    
+        }
     }
 
     public function buscar(){
         $comprasModel = model('ComprasModel');
         if(isset($_GET['nombreProducto'])){
             $nombreProducto =$_GET['nombreProducto'];
-            $codigoProducto =$_GET['codigoProducto'];
             $numeroSeguimiento=$_GET['numeroSeguimiento'];
-            $data['compras'] = $comprasModel->like('nombreProducto',$nombreProducto)->like('codigoProducto',$codigoProducto)->like('numeroSeguimiento',$numeroSeguimiento)->findAll();
+            $data['compras'] = $comprasModel->like('nombreProducto',$nombreProducto)->like('numeroSeguimiento',$numeroSeguimiento)->findAll();
             
         }
         else{
             $nombreProducto = "";
-            $codigoProducto ="";
             $numeroSeguimiento="";
             $data['compras'] = $comprasModel->findAll();
         }

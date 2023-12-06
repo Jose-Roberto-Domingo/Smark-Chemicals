@@ -8,6 +8,7 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
+use App\Filters\MyFilter;
 
 class Filters extends BaseConfig
 {
@@ -22,9 +23,10 @@ class Filters extends BaseConfig
         'csrf'          => CSRF::class,
         'toolbar'       => DebugToolbar::class,
         'honeypot'      => Honeypot::class,
+        'MyFilter' => MyFilter::class,
         'invalidchars'  => InvalidChars::class,
-        'secureheaders' => SecureHeaders::class,
-        'sesion' => \App\Filters\sesion::class
+        'secureheaders' => SecureHeaders::class
+        
     ];
 
     /**
@@ -68,10 +70,10 @@ class Filters extends BaseConfig
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
     public array $filters = [
-        "sesion" => [
+        "MyFilter" => [
             "before" => [
                 //Filtro menu de inicio
-                "/Admin/Menu_Inicio/Inicio'",
+                "/Admin/Menu_Inicio/Inicio",
                 //Filtro Producto
                 "/Admin/producto/mostrar",
                 "/Admin/producto/agregar",
@@ -100,7 +102,8 @@ class Filters extends BaseConfig
                 "/Admin/ventas/mostrar",
                 "/Admin/ventas/agregar",
                 "/Admin/ventas/buscar",
-                "/Admin/ventas/editar"
+                "/Admin/ventas/editar",
+                
             ]
         ]
     ];

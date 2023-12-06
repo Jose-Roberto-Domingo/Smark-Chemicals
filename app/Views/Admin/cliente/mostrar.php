@@ -115,3 +115,34 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
+        $('.table2').DataTable({
+            "lengthMenu": [10, 25, 50, 75, 100],
+            "pageLength": 10,
+            "order": [], // Puedes definir la ordenación inicial aquí
+            "language": {
+                "lengthMenu": "Mostrar _MENU_ elementos por página",
+                "zeroRecords": "No se encontraron resultados",
+                "info": "Mostrando página _PAGE_ de _PAGES_",
+                "infoEmpty": "No hay registros disponibles",
+                "infoFiltered": "(filtrado de _MAX_ registros totales)",
+                "search": "Buscar:",
+                "paginate": {
+                    "first": "Primero",
+                    "last": "Último",
+                    "next": "Siguiente",
+                    "previous": "Anterior"
+                }
+            }
+        });
+    });
+
+    function confirmarEliminar(id) {
+        var confirmacion = confirm("¿Estás seguro de que deseas eliminar este elemento?");
+
+        if (confirmacion) {
+            window.location.href = "<?= base_url('index.php/Admin/cliente/delete/'); ?>" + id;
+        }
+    }
+</script>

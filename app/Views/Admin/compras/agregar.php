@@ -34,6 +34,25 @@
         background-color: #c82333;
     }
 </style>
+<script>
+    // Obtener los datos de los productos y sus precios
+    const productos = <?php echo json_encode($productos); ?>;
+    
+    // Función para actualizar el precio cuando se selecciona un producto
+    function actualizarPrecio() {
+        const nombreProductoInput = document.getElementById('nombreProducto');
+        const precioInput = document.getElementById('precio');
+        const proveedorSelect = document.getElementById('proveedor');
+        
+        // Obtener el precio del producto seleccionado
+        const productoSeleccionado = productos.find(producto => producto.nombreProducto === nombreProductoInput.value);
+        
+        // Actualizar el campo de precio
+        precioInput.value = productoSeleccionado ? productoSeleccionado.precio : '';
+        // Actualizar el campo de proveedor
+        proveedorSelect.value = productoSeleccionado ? productoSeleccionado.proveedor : '';
+    }
+</script>
 <br><div class="container">
     <div class="row">
     <?php
@@ -50,24 +69,24 @@
             <?= csrf_field() ?>
                 <div class="mb-3">
                     <label for="nombreProducto" class="form-label">Nombre del producto</label>
-                    <input type="text" minlength="3" maxlength="50" class="form-control" name="nombreProducto" id="nombreProducto" required="required">
-                </div>
-
-                <div class="mb-3">
-                    <label for="proveedor">Proveedor</label>
-                    <select name="proveedor" class="form-control">
+                    <select class="form-control" name="nombreProducto" id="nombreProducto" onchange="actualizarPrecio()" required>
                         <option value=""></option>
-                        <?php foreach ($proveedores as $proveedor): ?>
-                            <option value="<?= $proveedor->nombreEmpresa ?>">
-                                <?= $proveedor->nombreEmpresa ?>
+                        <?php foreach ($productos as $producto): ?>
+                            <option value="<?= $producto->nombreProducto ?>">
+                                <?= $producto->nombreProducto ?>
                             </option>
                         <?php endforeach ?>
                     </select>
                 </div>
 
                 <div class="mb-3">
+                    <label for="proveedor">Proveedor</label>
+                    <input type="text" class="form-control" name="proveedor" id="proveedor" readonly required>
+                </div>
+
+                <div class="mb-3">
                     <label for="precio" class="form-label">Precio</label>
-                    <input type="double" class="form-control" name="precio" id="precio" required="required">
+                    <input type="double" class="form-control" name="precio" id="precio" readonly required>
                 </div>
 
                 <div class="mb-3">
@@ -97,3 +116,10 @@
         <div class="col-3"></div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const fechaCompra = document.getElementById('fechaCompra');
+        const fechaActual = new Date().toISOString().substring(0, 10);
+        fechaCompra.value = fechaActual;
+    });
+</script>

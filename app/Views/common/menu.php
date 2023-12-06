@@ -31,7 +31,6 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
     <img src="https://th.bing.com/th/id/R.062db02c29351f8e87b9da74cc9a617c?rik=PD2ARd%2fIgZ0XpQ&pid=ImgRaw&r=0 " width="76.80" height="43.2">
-    <h3 class="navbar-brand"><?= session('nombre')?></h3>
     <a class="navbar-brand" href="<?= base_url('Admin/Menu_Inicio/Inicio')?>">Smark Chemicals</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -59,6 +58,7 @@
       </ul>
     </div>
     <ul class="navbar-nav ml-right">
+      <a class="navbar-brand" href="#"><?= session('nombre')?></a>
         <li class="nav-item">
           <a class="btn btn-outline-danger logout-button" role="button" href="<?= base_url('/salir'); ?>">Cerrar sesión</a>
         </li>

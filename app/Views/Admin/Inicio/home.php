@@ -131,6 +131,9 @@
         font-size: 17px;
         color: #0ef;
     }
+    select:focus option {
+        color: black;
+    }
 </style>
 
 <body>
@@ -150,7 +153,7 @@
             </div>
 
             <div class="inp">
-                <select name="rol" id="rol" class="input" required="required">
+                <select name="rol" id="rol" class="input" required="required" >
                     <option value=""></option>
                     <option value="Administrador">Administrador</option>
                     <option value="Empleado">Empleado</option>

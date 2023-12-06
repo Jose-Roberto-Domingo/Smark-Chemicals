@@ -62,7 +62,7 @@
 
                 <div class="mb-3">
                     <label for="ventaTotal" class="form-label">Total de la venta</label>
-                    <input type="double" class="form-control" name="ventaTotal" id="ventaTotal" required="required">
+                    <input type="number" class="form-control" name="ventaTotal" id="ventaTotal" required="required">
                 </div>
 
                 <div class="mb-3">
@@ -99,3 +99,10 @@
         <div class="col-3"></div>
     </div>
 </div>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const fechaVenta = document.getElementById('fechaVenta');
+        const fechaActual = new Date().toISOString().substring(0, 10);
+        fechaVenta.value = fechaActual;
+    });
+</script>

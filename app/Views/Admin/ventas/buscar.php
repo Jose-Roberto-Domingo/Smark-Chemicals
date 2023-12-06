@@ -125,8 +125,7 @@
                 <table class="table2" border="1">
                     <thead class="thead">
                         <th>Nombre del producto</th>
-                        <th>Código del producto</th>
-                        <th>Venta Total</th>
+                        <th>Cantidad Vendida</th>
                         <th>Fecha de venta</th>
                         <th>Usuario</th>
                         <th>Cliente</th>
@@ -136,7 +135,6 @@
                         <?php foreach($ventas as $venta):?>
                             <tr>
                                 <td><?=$venta->nombreProducto?></td>
-                                <td><?=$venta->codigoProducto?></td>
                                 <td><?=$venta->ventaTotal?></td>
                                 <td><?=$venta->fechaVenta?></td>
                                 <td><?=$venta->empleado  ?></td>

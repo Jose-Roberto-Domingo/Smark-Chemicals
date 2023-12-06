@@ -71,6 +71,7 @@
     }
 </style>
 <script>
+    
     function confirmarEliminar(id) {
         var confirmacion = confirm("¿Estás seguro de que deseas eliminar este elemento?");
 
@@ -81,19 +82,18 @@
 </script>
 <br><div class="container">
     <div class="row">
-        
-        <div class="col-12">
+        <div class="col-1"></div>
+        <div class="col-9">
             <center><h2>Ventas</h2></center>
             <a role="button" class="btn btn-success" href="<?= base_url('index.php/Admin/ventas/agregar'); ?>">Agregar venta</a>
             <a role="button" class="btn btn-info" href="<?= base_url('index.php/Admin/ventas/buscar'); ?>">Buscar venta</a>
-                <table class="table2">
+                <table class="table2" border="1">
                     <thead>
                         <th>Nombre del producto</th>
-                        <th>Venta Total</th>
+                        <th>Cantidad Vendida</th>
                         <th>Fecha de venta</th>
                         <th>Usuario</th>
                         <th>Cliente</th>
-                        <th>Número de Seguimiento</th>
                         <th>Acciones</th>
                     </thead>
                     <tbody>
@@ -104,7 +104,6 @@
                                 <td><?=$venta->fechaVenta?></td>
                                 <td><?=$venta->empleado  ?></td>
                                 <td><?=$venta->cliente?></td>
-                                <td><?=$venta->numeroSeguimiento ?></td>
                                 <td>
                                 <a class="btn btn-danger" role="button" onclick="confirmarEliminar(<?= $venta->idVenta ?>)"><i class="bi bi-trash3"></i></a>
                                     <a class="btn btn-warning" role="button" href="<?= base_url('index.php/Admin/ventas/editar/'. $venta->idVenta); ?>"><i class="bi bi-pencil-square"></i></a>

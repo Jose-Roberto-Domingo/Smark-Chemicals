@@ -86,13 +86,13 @@
             <center><h2>Productos</h2></center>
             <a role="button" class="btn btn-success" href="<?= base_url('index.php/Admin/producto/agregar'); ?>">Agregar producto</a>
             <a role="button" class="btn btn-info" href="<?= base_url('index.php/Admin/producto/buscar'); ?>">Buscar producto</a>
-                <table class="table2">
+                <table class="table2" border="1">
                     <thead>
                         <th>Nombre del producto</th>
                         <th>Precio</th>
                         <th>Proveedor</th>
                         <th>Usuario</th>
-                        <th>Producto Total</th>
+                        <th>Cantidad de Producto Total</th>
                         <th>Fecha de compra</th>
                         <th>Número de Seguimiento</th>
                         <th>Acciones</th>

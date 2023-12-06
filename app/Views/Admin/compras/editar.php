@@ -66,7 +66,7 @@
 
                 <div class="mb-3">
                     <label for="compraTotal" class="form-label">Total de la Compra</label>
-                    <input type="double" class="form-control" name="compraTotal" id="compraTotal" value="<?= $compras->productoTotal?>" >
+                    <input type="double" class="form-control" name="compraTotal" id="compraTotal" value="<?= $compras->compraTotal?>" >
                 </div>
 
                 <div class="mb-3">
